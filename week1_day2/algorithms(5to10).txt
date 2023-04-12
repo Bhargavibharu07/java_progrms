@@ -1,0 +1,95 @@
+5.write a algorithm to find gross salary 
+
+     step1.start
+     step2.read the basic salary basic_salary
+     step3.find the hra of basic salary hra<--(basic_salary)*20/100
+     step4.find the da of basic salary da<--(basic_salary)*50/100
+     step5.find the gross salary gross_salary<--(basic salary+DA+HRA)
+     step6.print gross_salary
+     step7.stop
+
+
+6.write a algorithm for swaping of 2 numbers with using third variable
+
+    step1.start
+    step2.read the two quantities  number1 ,number2
+    step3.Assign the number1 value in temp
+           temp<----number1
+    step4.Assign the number1 value to number1
+           number<--number2
+    step5.Assign the temp value to number2
+           number2<---temp
+    step6.print the swapped values number1 and number2
+    step7.stop
+
+
+7.write a algorithm for swaping of 2 variables without using third variable
+
+       step1:-start
+       step2:- read the two variable x,y
+       step3:-x=x+y
+       step4:-y=x-y
+       step5:-x=x-y
+       step6:-printx,y
+       step7:- stop
+
+
+8.write a algorithm to calculate the compond interest
+
+1.start
+2.input principle amount,rate,time p,r,t. 
+3.Calculate compound interest using formula, CI = principle * pow((1 + rate / 100), time).
+4. print the resultant value of CI.
+5.stop
+
+9.write a algorithm to check the eligible of student to take admission in clg
+
+      step1:-start
+      step2:-read the pencentage of students
+      step3:-if (percentage>85)
+                  print "eligible"
+             else
+                   print"Not eligible"
+      step4.stop
+
+
+10.write a algorithm find biggest of 3 numbers
+
+        step1:-start
+        step2:-read the number1,number2,number3
+        step3:-if(number1>number2)
+                {
+                   if(number1>number3)
+                      print "number1 is bigger"
+                   else
+                       print "number3 is bigger"
+                  }
+                  else
+                    {
+                     if(number2>number3)
+                          print "number2 is bigger"
+                     else
+                       print"number3 is bigger"
+                     }
+           step4:-step
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,43 @@
+1. write an algorithm to find whether a number is even or odd
+
+    step1:-start
+    step2:-Read the number
+    step3:-if the number is divisible by 2(remainder is 0)
+               print number is even
+          else
+              print number is odd
+   step4:-stop
+
+
+2.write a algorithm to find wheather a person is eligible to vote or not(age>18 eligible to vote)
+
+
+          step1:-start
+          step2:-Read the age
+          step3:-if(age>18)
+                    print"eligible to vote"
+                  else
+                     print"not eligible to vote"
+          step4:-stop
+
+
+3.write an algorithm to find wheather a student is eligible to take admission in a college(if percentage is greater than 85 then he is eligible to take admission)
+
+
+               step1.start
+               step2.read the pencentage of students
+               step3.if (percentage>85)
+                       print"eligible"
+                  else
+                       print"Not eligible"
+                 step4.stop
+
+4.write an algorithm to find the biggest of two numbers
+
+          step1:-start
+          step2:-Read the numbers number1,number2
+          step3:-if(number1>number2)
+                    print"number1 is bigger"
+                 else
+                    print "number2 is bigger"
+           step4:-stop

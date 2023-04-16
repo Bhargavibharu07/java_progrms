@@ -1,0 +1,133 @@
+1) write a algorithm to find a number is armstrong or not
+
+1.start
+2.read 3 digit number
+3.initilize sum=0,current_digit,num=number
+4.repeat the steps i,ii,iii until num>0
+       i)current_digit=num%10
+ii)sum=sum+(current_digit*current_digit*current_digit)
+iii)num=num/10
+5.if sum==number
+     print"it is an armstrong number"
+  else
+    print"it is not an armstrong number"
+6.stop
+
+2)write a algorithm to find a number is palindrome or not
+
+1.start
+2.read the number
+3.intialize reverse number<--0
+4.repeat the steps 5-7 until number!=0
+5.digit<--- number%10
+6.reverse number<--reverse number*10+digit
+7.number<--number/10
+8.if(number=reverse number)
+    print"it is a palindrome number"
+  else
+    print"it is not a palindrome number"
+9.print number
+10.stop
+
+
+ 3)write a algorithm to find first n fibonacci series
+1.start
+2.read the number
+3.initialize  a=0,b=1 ,count=2
+4.if(n==1)
+     print a
+elseif(n==2)
+    print a and b
+else
+{
+  a) print a and b
+b) repeat the steps i,ii,iii,iv until count<n
+        i)c=a+b
+        ii)print c
+        iii) a=b,b=c
+         iv)count=count+1
+7.stop
+          
+
+ 4)write an algorithm to find the sum of any n numbers
+ 
+1. start
+2. Read the number n
+3. Initialize sum <----0, count <----1
+4. Repeatedly execute the steps (i)-(iii) until (count <=n)
+      i) read the number
+      ii) sum <---- sum +number
+     iii) count <---- count +1
+5. print sum
+6. stop
+
+
+5)write an algorithm to find whether given positive integer is strong number or not
+ 
+1:start
+2:read the number n
+3:initialize sum=0,temp=n
+4.repeatedly execute the steps i-iv until(number!=0)
+    i.digit=number%10
+    ii. factorial=digit!
+    ii.number=number/10
+    iv.sum=sum+factorial
+5.if(sum==temp)
+    print" given number is  strong number"
+  else
+    print"given number is not a strong number"
+6.stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+​
+
+
+

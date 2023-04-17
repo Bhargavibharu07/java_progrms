@@ -1,0 +1,110 @@
+
+write a algorithm to find wheather an year is a leap year or not
+1.start
+2.read the year
+3.if (year%4==0)
+         {
+           if ( year%100==0)
+            {
+               if (year%400==0)
+                {
+                  print "year is leap year"
+                }
+               else
+                {
+                  print "year is not a leap year"
+                }
+            }
+           else
+            {
+               print "year is a leap year"
+            }
+         }
+        else
+         { 
+           print "year is not a leap year"
+         }
+4  stop
+
+write a algorithm to find wheather a positive number is prime number or not
+
+          (LOGIC 1)
+1.start
+2.read  the number n
+3.initialize flag=1,i=2
+4.if(n<=1)
+       print"n is not a prime number" then go to step 6
+   else
+{
+ a)repeatedly excute the steps i,ii until (i<n)
+     i)if (n%i==0) then flag=0
+     ii)i=i+1
+}
+5) if(flag==0)
+     print " n is not a prime number"
+else
+   print"n is a prime number"
+6.stop
+     
+        (LOGIC 2)
+1.start
+2.read the number n
+3.if(n<=1) then print"n is not a prime number" and go to step 7
+4.initialize i=1,nf=o
+5) repeatedly execute the steps i,ii until(i<=n)
+       i) if(n%i==0)
+       ii) nf=nf+1
+       iii)if=i+1
+6) if(nf==2)
+       print"n is a prime number"
+   else
+      print"n is not a prime number"
+7.stop
+
+write a algorithm to find wheather a number is perfect number or not
+
+1.start
+2. read the positive integer number as n
+3.initialize sum=0,i=1
+4.repeatedly execute the steps i,ii until (i<n)
+
+                i.if (n%i==0)
+                    {
+                       sum=sum+i
+                    }
+                ii. i=i+1
+
+5.if (sum==n)
+            print "n is a perfect number"
+        else
+            print "n is not a perfect number"
+6.stop
+
+write a algorithm for the number of factors for given positive integer
+ 
+1.start
+2.read the number n
+3.initialize i=1,count=0
+4.repeat the steps i-ii untill i<=n
+    i.if(n%i=0)
+      {
+        count=count+1
+       }
+    ii.i=i+1
+5.print count
+6 stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

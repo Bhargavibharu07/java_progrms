@@ -1,0 +1,19 @@
+step1:- START
+step2:- open online website
+step3:- if your new user first get register ortherwise directly Login to website with username and password.
+step4:- if login is unsuccessfull reset password otherwise welcome to home page
+step5:- on home page search for the item you need
+step6:- view the product like colour , reviews, quality etc..
+step7:- if item is selected , Add to cart
+step8:- fill the requried details to deliver the item (ADDRESS)
+step9:- select mode of payment ( online payment or cash on delivery )
+step10:-  if payment mode is online slect asny options like EMI,credit/debit card, UPI apps /networkbanking otherwise select cash on delivery.
+step11:-  click "continue" and your order is placed
+step12:- you receive order confirmation and tracking details to register mobile number / mail
+step13:- ordered item will deliver in 2 to 3 days, if ordered item is not good with quality or wrong order receive.
+step14:- Go to the profile select "your orders" displays review and exchange/ return item
+step15:-  if ordered item want to return click on "Return item"
+step16:- Fill the requried details to return the item ortherwise exchange item
+step17:- for exchang item go to home page and select item again fill the requried details and place order.
+step18:- STOP
+

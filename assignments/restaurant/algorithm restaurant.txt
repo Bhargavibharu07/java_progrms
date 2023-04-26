@@ -1,0 +1,79 @@
+
+
+Algorithms restaurant management system:
+
+
+a) Restaurant Order management algorithm:
+
+
+step1:- START
+step2:- open Restaurant portal/App
+step3:- Login with username and password
+step4:- if login is unseccessfull reset password and reloggin again otherwise go to Admin Dashboard
+step5:- on Dashboard it displays Orders , Kitchen, employees, reviews, FAQ's ect..
+step6:- click on "orders" to view the  status of customers order  
+step7:- displays online orders and offline orders
+step8:- click on " online orders" to view customer orders
+step9:- Displays " Orderid,customer name, customer number, list of ordered items , order receive date and time , order delivered time ,  order status (processing/due)"
+step10: click on " offline orders" to view customer orders
+step11: Displays " order id , table number, reservation details, ordered list , takeaway list "
+step12: STOP
+
+b) Restaurant Kitchen management algorithm:
+
+ 
+step1:- START
+step2:- open Restaurant portal/App
+step3:- Login with username and password
+step4:- if login is unseccessfull reset password and reloggin again otherwise go to Admin Dashboard
+step5:- on Dashboard it displays Orders , Kitchen, employees, reviews, FAQ's ect..
+step6:-if clicks on " Kitchen management" 
+step7: Displays 
+   7.1. availability of food stock 
+   7.2. menu (tupes of dishes available)
+   7.3. food service operations
+   7.4. tracking food orders
+   7.5. availabilty of number.of staff in the kitchen
+   7.6. check the updating list of menue/total kitchen  items 
+
+step8: STOP
+
+c) Restaurant Employee management algorithm:
+step1:- START
+step2:- open Restaurant portal/App
+step3:- Login with username and password
+step4:- if login is unseccessfull reset password and reloggin again otherwise go to Admin Dashboard
+step5:- on Dashboard it displays Orders , Kitchen, employees, reviews, FAQ's ect..
+step6:-if clicks on " Employee management"
+step7:- DISPALYS
+
+  7.1. ADD/remove employess
+  7.2. check the leaves of employees
+  7.3. list of employes
+  7.4. employee salary status/position of an employee
+  7.5. employes time shifts/work progress
+  7.6. employee scheduling
+  7.7.organize meetings
+
+step8:- Stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

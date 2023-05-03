@@ -71,8 +71,8 @@ we need JDK to develop applications
 
 JVM(java virtual machine)>-- translate bytecode to machine code
 
->-- JIT COMPILER improve the performance of code in runtine
-
+>-- JIT(just- in-time) COMPILER improve the performance of java program by compiling bytecode into native machine code at  runtime
+*identify hostsport(parts of prgm)
 
 
 >--comments:- used to make the program more readable by adding details of the code
@@ -85,7 +85,7 @@ JVM(java virtual machine)>-- translate bytecode to machine code
 
 TOKENS:- smallest individual units of a program that are recognize by compilers
 
-* keywords>-- words that have a standard meaning( uses lowercase letters only
+* keywords>-- words that have a standard predefined  meaning intended by java developers( uses lowercase letters only)
 
 * identifiers>--name being given to programming elements such as objects, variables, methods,packages etc..
 
@@ -112,7 +112,7 @@ Identifier rules:
 
 >--NAMING CONVENTIONS:-
 
-1. Names of packages in Java are written in small letters
+1. Names of packages in Java are written in small letters(lower case letters)
  
 2.Each word of class names and interface names start with a capital letter (String, DataInputStream, ActionListener etc.)
  
@@ -127,7 +127,7 @@ Identifier rules:
 * primitive data types:- predefined in java
  
 >-- numeric:-
-* interger:-
+* interger:-number without decimal point
 byte:-size:1,range:-(-2^7 to 2^7-1)
 short:-size:2,range:-(-2^15 to 2^15-1)
 int:-size:4,range:-(-2^31 to 2^31-1)
@@ -138,7 +138,7 @@ double:-8byte
 flot:-4byte
 
 >-- non-numeric:-
-boolean:-1 byte
+boolean:-1 byte(trur and false)
 char:-2byte
 
 * non-primitive data types:- user-defined 
@@ -149,7 +149,7 @@ char:-2byte
 
 >--VARIABLES:- variable is a named memory location whose value can change during the exection of the program
 >-- variables must first be declare before they can be used.
-*syntax:- datatypes var1,var2
+*syntax:- datatypes var1,var2;
   ex:-intx,y
 
 

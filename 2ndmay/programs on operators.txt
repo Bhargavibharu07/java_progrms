@@ -1,0 +1,151 @@
+
+
+PROGRAMS
+
+1. ArthimaticOperator:-
+
+import java.util.Scanner;
+class ArthimaticOperator
+  {
+    public static void main(String[] args)
+    {
+      Scanner test = new Scanner(System.in);
+      int a,b;
+      System.out.println("enter the integer values");
+      a=test.nextInt();
+      b=test.nextInt();
+      System.out.println("a+b="+(a+b));
+      System.out.println("a-b="+(a-b));
+      System.out.println("a%b="+(a%b));
+      System.out.println("a/b="+(a/b));
+      
+    }
+  }
+
+2.relational (or) camparisan operators
+
+import java.util.Scanner;
+public class RelationalOperator 
+{
+    public static void main(String args[]) 
+    {
+        Scanner s= new Scanner(System.in);
+        System.out.print("Enter first integer:");
+        int a = s.nextInt();
+        System.out.print("Enter second integer:");
+        int b = s.nextInt();
+        System.out.println("a == b : " + (a == b) );
+        System.out.println("a != b : " + (a != b) );
+        System.out.println("a > b : " + (a > b) );
+        System.out.println("a < b : " + (a < b) );
+        System.out.println("b >= a : " + (b >= a) );
+        System.out.println("b <= a : " + (b <= a) );
+    }
+}
+
+3.logical operators:-
+
+
+import java.util.*;
+public class LogicalOperator
+{
+  public static void main(String[] args) 
+  {
+    int x=2,y=3,z=4;
+    // && operator
+    System.out.println("Result of ("+x+" > "+y+") && ("+z+" > "+x+")");
+    System.out.println((x > y) && (z > x));  
+    System.out.println("Result of ("+x+" > "+y+") && ("+z+" < "+x+")");
+    System.out.println((x > y) && (z < x)); 
+
+    // || operator
+    System.out.println("Result of ("+y+" < "+x+") || ("+z+" > "+x+")");
+    System.out.println((y < x) || (z > y));  
+    System.out.println("Result of ("+y+" > "+x+") || ("+z+" < "+x+")");
+    System.out.println((y > x) || (z < x));  
+    System.out.println("Result of ("+y+" < "+x+") || ("+z+" < "+x+")");
+    System.out.println((y < x) || (z < y));  
+
+
+    // ! operator
+   System.out.println("Result of (!"+x+" == "+y+")");
+   System.out.println(!(x == y)); 
+   System.out.println("Result of (!"+x+" > "+y+")");
+   System.out.println(!(x > y));
+ 
+  }
+}
+
+4.assignment operators
+
+import java.util.Scanner;
+public class AssignmentOperator
+{ 
+    public static void main(String[] args) 
+    {
+        int num1 = 10, num2 = 20; 
+        int res;
+        System.out.println("Initial value of num1 = " + num1); 
+        System.out.println("Initial value of num2 = " + num2); 
+        // Adding & Assigning values 
+        num1 += num2;  
+        System.out.println("Value of num1 after += is " + num1);
+        // Subtracting & Assigning values 
+        num1 -= num2; 
+        System.out.println("Value of num1 after -= is " + num1);
+        // Multiplying & Assigning values 
+        num1 *= num2;  
+        System.out.println("Value of num1 after *= is " + num1);
+        // Dividing & Assigning values 
+        num1 /= num2; 
+        System.out.println("Value of num1 after /= is " + num1);
+        // Moduling & Assigning values 
+        num1 %= num2; 
+        System.out.println("Value of num1 after %= is " + num1); 
+    } 
+} 
+
+5.ternary (or) conditional operators
+
+import java.util.Scanner;
+public class TernaryOperator 
+{  
+public static void main(String args[])   
+{  
+int x, y;  
+x = 20;  
+y = (x == 1) ? 61: 90;  
+System.out.println("Value of y is: " +  y);  
+y = (x == 20) ? 61: 90;  
+System.out.println("Value of y is: " + y);  
+}  
+}  
+
+8.Bitwise operator:-
+
+import java.util.Scanner;
+public class BitwiseOperator {
+    public static void main(String[] args)
+    {
+        int a = 5;
+        int b = 7;
+        System.out.println("a&b = " + (a & b));
+        System.out.println("a|b = " + (a | b));
+        System.out.println("a^b = " + (a ^ b));
+        System.out.println("~a = " + ~a);
+        a &= b;
+        System.out.println("a= " + a);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

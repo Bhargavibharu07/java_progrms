@@ -1,0 +1,228 @@
+JAVA SCNNER CLASS
+
+* predefine class
+* java.util package used to read input data
+* we need to import import java.unitl.scanner;
+* creat a object of scanner class
+Scanner sc= newScanner(system.in);
+
+
+
+>--- operators:- symbols that are used to  perform operations is called operators
+
+1.artimatic operators
+2.relational (or) camparisan operators
+3.logical operators
+4.assignment operators
+5.increment&decremennt operators
+6.ternary (or) conditional operators
+7.Bitwise operator
+8. special operators
+
+unary = on operand (+5,-5)
+binary=two operands (3+4,3-5)
+ternary=three operands
+
+1.arthimetic operator:-performs mathematical opearations
+operator     meaning
+  +         unary plus or binary addition
+  -         unary minus or binary subtraction
+  *         Multiplication
+  /         division
+ %          modulus
+
+>---if a/b then b!=0
+>--integer arthimatic always gives you an integer value as a result  ex:-5/2=2.5=2
+
+
+2.relational or camparisan operators:-
+
+camparing 2 operands
+
+operator    
+ >
+ <
+ >=
+ <=
+ ==
+ !=
+
+>-- expression involving relation operator is called as relational expression 
+>-- every relational expression has a boolean value (true or flase) 
+
+>--- =: assignment
+>--- ==: equality 
+
+3.logical operators:-
+combinding 3 conditions
+
+logical AND  &&
+logical OR   ||
+             ||
+logical NOT  !
+
+>--logical AND  logical OR  are binary operators
+
+logical AND (&&):-
+
+condition1      condition2      condition1&&condition2
+  T               T                       T
+  F               T                       F
+  T               F                       F
+  F               F                       F
+
+logical OR(||)
+
+condition1      condition2      condition1||condition2
+  T               T                       T
+  F               T                       T
+  T               F                       T
+  F               F                       F
+
+logical NOT(!)
+condition1      !condition1     
+   T              F
+   F              T
+
+
+
+
+4.Assignment operator
+
+=
++=
+-=
+*=
+/=
+%=
+a +=5>--a=a+5
+
+5.increment&decremennt operators
+
+1)  increment&decremennt operators are unary operator
+2) ++ (increase the operand value by 1)
+     a++>--post increment
+    ++a>---pre increment
+3)--(decrement the operand 1)
+    a--post decrement
+   --a pre decrement
+
+
+6.ternary or conditional operators
+
+  exp1?exp2:exp3
+
+
+7.Bitwise operator:- to perform bitwise bit operators
+
+operand        meaning
+
+ &               bitwiseAND
+
+ |               bitwise OR
+
+ ^               bitwiseXOR
+
+ ~               bitwise compliment
+
+>>               bitwise left shift
+
+<<               bitwise right shift
+
+bitwiseAND(&):- RETURN 1 IF BOTH BITS ARE 1 ELSE RETUENS 0
+
+X    Y     X&Y
+
+0    0      0
+0    1      0
+1    0      0
+1    1      1
+
+bitwiseOR(|):- RETURN 1 ANY OF THE BIT IS 1  ELSE RETUENS 0
+
+X    Y     X|Y
+
+0    0      0
+0    1      1
+1    0      1
+1    1      1
+
+bitwiseXOR(^):- RETURN 0 IF BOTH BITS ARE SAME  ELSE RETUNS 1
+
+X    Y     X^Y
+
+0    0      0
+0    1      1
+1    0      1
+1    1      0
+
+bitwise compliment(~):- INVERSE OF BIT
+
+
+X    ~X     
+
+0    1      
+1    0      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

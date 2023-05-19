@@ -1,0 +1,572 @@
+>---Expression Evaluation:
++
+-
+*
+/
+%
+
+
+precedence of the operator:-
+
+>-- * \ %
+>--  + -
+
+if * / check associativity := left to right
+
+
+a=10  b=15  c=20
+z=a-b*(a*c+b)/b
+z=a-b*(10*20+15)/15
+a-b*(200+15)/15
+a-b*(215)/15
+10-15
+
+
+a=2,b=3,c=5
+
+a+b-(a-b)*(a+c)/(a-b)
+2+3-(2-3)*(2+5)/(2-3)
+2+3-(-1)*(7)/(-1)
+2+3-(-7)/(-1)
+2+3-7=5-7=-2
+
+Control statement:-
+
+controoling the  order of exection of satements
+
+
+
+1.conditional /decision 
+
+
+* simple if
+* if else
+* else if ladder
+* nested if
+* switch
+
+simple if statement:-
+
+if(condition)
+{
+   statement block;
+}
+statement-X;
+
+* if else
+if(condition)
+{
+   statement block1;
+}
+else
+{
+statementblock2;
+}
+statement-X;
+
+
+
+1. WAP to find maximum between two numbers.
+
+import java.util.Scanner;
+public class MaxNumber
+  {
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+      int a,b;
+      System.out.println("Enter the value of a");
+      a= sc.nextInt();
+      System.out.println("Enter the value of b");
+      b= sc.nextInt();
+      if(a>b)
+      {
+        System.out.println("Maximum Number is " +a);  
+      }
+      else
+      {
+        System.out.println("Maximum Number is " +b); 
+        
+      }
+        
+      
+    }
+  }
+
+2. WAP to find maximum between three numbers.
+
+import java.util.Scanner;
+public class BiggestNumber
+{
+public static void main(String [] args){
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter the three number");
+  int num1=sc.nextInt();
+  int num2=sc.nextInt();
+  int num3=sc.nextInt();
+  if(num1>num2 && num1>num3){
+    System.out.println("num1 is bigger");
+  }
+  else if(num2>num3)
+  {
+    System.out.println("num2 is bigger");
+  }
+  else{
+    System.out.println("num3 is bigger");
+  }
+}
+}
+3. WAP to check whether a number is negative, positive or zero.
+
+import java.util.Scanner;
+public class CheckNumber
+{
+public static void main(String [] args){
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter a  number");
+  int num=sc.nextInt();
+  if(num>0){
+    System.out.println("num is positive"+num);
+  }
+  else if(num<0)
+  {
+    System.out.println("num is Negative"+num);
+  }
+  else{
+    System.out.println("num is Zero"+num);
+  }
+}
+}
+
+4. WAP to check whether a number is divisible by 5 and 11 or not.
+
+import java.util.Scanner;
+public class CheckNumber
+{
+public static void main(String [] args){
+  Scanner sc= new Scanner(System.in);
+  System.out.println("Enter a  number");
+  int num=sc.nextInt();
+  if(num%5==0){
+    System.out.println("num is divisible by 5");
+  }
+  else if(num%11==0)
+  {
+    System.out.println("num is divisible by 11");
+  }
+  else{
+    System.out.println("Not");
+  }
+}
+}
+
+5. WAP to check whether a number is even or odd.
+
+import java.util.Scanner;
+public class EvenOrOdd
+{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in);
+  int a;
+  System.out.println("enter the value of a");
+  a = sc.nextInt();
+  if(a%2==0)
+  {
+    System.out.println(" number is even");
+  }
+  else
+  {
+   System.out.println(" number is odd");
+  }
+}
+}
+
+
+
+
+
+
+* else if ladder
+
+if(condition1)
+{
+statement1;
+}
+else if(condition2)
+{
+statement2;
+}
+else if(condition3)
+{
+statement3;
+}
+else if(condition4)
+{
+statement4;
+}
+----
+--------
+----------
+else
+default statement
+}
+statemetx
+
+* nested if-else
+
+if(condition1)
+{
+---
+}
+if(condition2)
+{
+--
+}
+else
+{
+--
+}
+}
+else
+{
+if(condition3)
+{
+---
+}
+else
+{
+--
+}
+statemnetX
+
+
+7. WAP to check whether a character is alphabet or not.
+
+import java.util.Scanner;
+public class Alphabet
+{
+    public static void main(String args[])
+    {
+        char c;
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter any  character");
+        c=s.next().charAt(0);
+        
+        if( (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+                    System.out.println(c + " is an alphabet.");
+            else
+                    System.out.println(c + " is not an alphabet.");
+        
+            
+    }
+}
+
+
+8. WAP to input any alphabet and check whether it is vowel or    consonant.
+
+import java.util.Scanner;
+public class VowelConsonent
+  {
+    public static void main(String[] args)
+    {
+      Scanner sc =new Scanner(System.in);
+      char y;
+      System.out.println("enter the alphabet");
+      y = sc.next().charAt(0);
+      if(((y=='a')||(y=='e')||(y=='i')||(y=='o')||(y=='u'))||((y=='A')||(y=='E')||(y=='I')||(y=='O')||(y=='U')))
+      {
+        System.out.println("it is vowel");
+      }
+      else
+      {
+        System.out.println("it is consonant");
+      }
+     
+    }
+  }
+9. WAP to input any character and check whether it is alphabet, digit    or special character.
+
+import java.util.Scanner;
+public class AlphabetDigit
+  {
+    public static void main(String[] args)
+    {
+      Scanner sc =new Scanner(System.in);
+      char y;
+      System.out.println("enter the charecter:");
+      y = sc.next().charAt(0);
+      if( (y >= 'a' && y <= 'z') || (y >= 'A' && y <= 'Z'))
+      {
+        System.out.println(y + " is an alphabet.");
+      }
+      else if (y>='0'&& y<='9')
+        {
+        System.out.println(y+"is a digit.");
+        }
+      else 
+      {
+        System.out.println(y+"is a special symbol");
+      }
+    }
+  }
+10. WAP to check whether a character is uppercase or lowercase     alphabet.
+
+import java.util.Scanner;
+public class UpperLower
+  {
+    public static void main(String[] args)
+    {
+      Scanner sc=new Scanner(System.in);
+      char y;
+      System.out.println("enter the charecter:");
+      y = sc.next().charAt(0);
+      if(y>='a'&& y<='z')
+      {
+        System.out.println("This is lowercase Alphabet");
+      }
+      else{
+        System.out.println("This is uppercase Alphabet");
+        
+      }
+      
+    }
+  }
+13. WAP to input marks of five subjects Physics, Chemistry, Biology,     Mathematics and Computer. Calculate percentage and grade according to     following:
+    Percentage >= 90% : Grade A
+    Percentage >= 80% : Grade B
+    Percentage >= 70% : Grade C
+    Percentage >= 60% : Grade D
+    Percentage >= 40% : Grade E
+    Percentage < 40% : Grade F
+
+
+import java.util.Scanner;
+public class SubjectsMarks
+{
+    public static void main(String args[])
+    {
+        
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter 5 sub marks");
+        int physics_Marks=s.nextInt();
+        int chemistry_Marks=s.nextInt();
+        int biology_Marks=s.nextInt();
+        int mathematics_Marks=s.nextInt();
+        int computer_Marks=s.nextInt();
+
+ 
+
+        int Percentage=(physics_Marks+chemistry_Marks+biology_Marks+mathematics_Marks+computer_Marks)/5;
+        System.out.println("percentage:"+Percentage);
+
+ 
+
+        
+        if(Percentage >= 90) {
+         System.out.println("Grade A");
+         }
+        
+        else if(Percentage >= 80){
+         System.out.println("Grade B");
+         }
+        else if(Percentage >= 70) {
+         System.out.println("Grade C");
+        }
+        else if(Percentage >= 60) {
+         System.out.println("Grade D");
+        }
+        else if(Percentage >= 40) {
+          System.out.println("Grade E");
+        }
+        else if(Percentage < 40) 
+          System.out.println("Grade F");
+ 
+        
+            
+    }
+}
+
+14. WAP to input basic salary of an employee and calculate its Gross     salary according to following:
+    Basic Salary <= 10000 : HRA = 20%, DA = 80%
+    Basic Salary <= 20000 : HRA = 25%, DA = 90%
+    Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+
+
+
+
+
+* simple if
+* if else
+* else if ladder
+* nested if
+* switch
+
+* simple if statement:-
+
+if(condition)
+{
+   statement block;
+}
+statement-X;
+
+* if else:-
+
+if(condition)
+{
+   statement block1;
+}
+else
+{
+statementblock2;
+}
+statement-X;
+
+
+* else if ladder
+
+if(condition1)
+{
+statement1;
+}
+else if(condition2)
+{
+statement2;
+}
+else if(condition3)
+{
+statement3;
+}
+else if(condition4)
+{
+statement4;
+}
+----
+--------
+----------
+else
+default statement
+}
+statemetx
+
+
+* nested if-else
+
+if(condition1)
+{
+---
+}
+if(condition2)
+{
+--
+}
+else
+{
+--
+}
+}
+else
+{
+if(condition3)
+{
+---
+}
+else
+{
+--
+}
+statemnetX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

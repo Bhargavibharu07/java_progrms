@@ -1,0 +1,157 @@
+ARRAYS:- Group (or) collection of elements having same data type
+* all the elements of the array will be stored in contiguous memory location and share a common name.
+
+DECLARATION OF ARRAY:-
+
+datatype[] arrayname;  (int[] marks;)
+       
+     or
+datatype arrayname[];  (float temp[];)
+
+     or
+
+datatype  []arrayname;(string  names[];)
+
+ENTERING ARRAY:-
+for(int i=0;i<5;i++)
+a[i]=sc.nextInt();
+
+PRINTING ARRAY:-
+for(INT i=0;i<5;i++)
+System.out.println(a[i]);
+
+>--- if we creat array but not assign any values then it prints defauly value like for int=1,float=0.0,chat=null,boolean=false
+
+
+INITIALIZATION:-
+
+datatype[] arrayname;
+arrayname=new datatype[length]; 
+
+(int[] marks;
+marks =new int[5])
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         

@@ -1,0 +1,275 @@
+Features of java
+
+1.object-oriented
+2.simple
+3.secure
+4.mutti-threaded
+5.robust
+6.portable
+7.interpreted
+8.platform independet
+9.dynamic
+10.Architecture neutral
+11.distributed
+12.high-performance
+
+>--- Sun Microsystems
+1.java SE
+2 java EE
+3.java ME
+
+>---packages of 2 types
+  1. pre-defined packages
+  2. user defined packages
+
+>---Anatomy  of java program
+
+documentation section
+package statement
+import statements
+interface statements
+class definitions
+Main Method class
+{
+  Main Method Definition
+}
+
+
+METHOD:- it is same like functio but define inside of class
+
+FUNTION:- sub procedudre (or) subrouti e that specifies a class
+
+
+
+
+SYNTAX
+public class Welcome
+{
+ public static void main(String[]args)
+{
+system.out.println("Hello,World!");
+}
+}
+
+Steps to compile and run a JAVA Program
+
+1.save code with java extension
+      MyFirstApp.Java
+2.campile
+    javac MyFirstApp.Java
+3.Run
+   java MyFirstApp.Java
+4.Output
+
+
+
+
+JDK( java development kit)>--JRE+ compilers+debug etc..(develop java applications)
+
+JRE(java runtime environment)>--- JVM+ class libraries(run java applications)>--class load,bytecode,JIT compile(JIT>--just-in-time)
+we need JDK to develop applications
+
+JVM(java virtual machine)>-- translate bytecode to machine code
+
+>-- JIT(just- in-time) COMPILER improve the performance of java program by compiling bytecode into native machine code at  runtime
+*identify hostsport(parts of prgm)
+
+
+>--comments:- used to make the program more readable by adding details of the code
+
+>-- 2 types of comments
+
+* single line comments:-//
+* Multi-line comments:-/*  */
+
+
+TOKENS:- smallest individual units of a program that are recognize by compilers
+
+* keywords>-- words that have a standard predefined  meaning intended by java developers( uses lowercase letters only)
+
+* identifiers>--name being given to programming elements such as objects, variables, methods,packages etc..
+
+Identifier rules:
+
+1.They can have alphabets, digits, underscore and dollar symbol
+2.They must not begin with digit
+3.Keywords cannot be used as identifiers
+4.whitespace characters are also not allowed
+
+* literals>--any constant value in the program(9,true,false,null,etc..)
+
+* operators>--symbols used to perform certain operations
+           1.Arthimatic operator
+           2. bitwise operator
+           3. Assignment operator
+           4. Relational operator
+           5. logical operator
+           6.ternary operator
+           
+
+* special syambols>--few charecters which have special meaning known to java compiler and cannot be used for other purpose like..(){}[]
+
+
+>--NAMING CONVENTIONS:-
+
+1. Names of packages in Java are written in small letters(lower case letters)
+ 
+2.Each word of class names and interface names start with a capital letter (String, DataInputStream, ActionListener etc.)
+ 
+3.The first word of a variable and method name is in small letters; then from second word onwards, each new word starts with a capital letter                (readLine( ), nextInt( ) )
+ 
+4.Such constants should be written by using all capital letters
+ 
+5.All keywords should be written by using all small letters
+
+>--DATA TYPES:- Type of data we are going to deal with program
+
+* primitive data types:- predefined in java
+ 
+>-- numeric:-
+* interger:-number without decimal point
+byte:-size:1,range:-(-2^7 to 2^7-1)
+short:-size:2,range:-(-2^15 to 2^15-1)
+int:-size:4,range:-(-2^31 to 2^31-1)
+long:-size:8,range:-(-2^63 to 2^63-1)
+
+* floating point:-
+double:-8byte
+flot:-4byte
+
+>-- non-numeric:-
+boolean:-1 byte(trur and false)
+char:-2byte
+
+* non-primitive data types:- user-defined 
+   
+   >--string
+   >--arrays
+   >--user defined class
+
+>--VARIABLES:- variable is a named memory location whose value can change during the exection of the program
+>-- variables must first be declare before they can be used.
+*syntax:- datatypes var1,var2;
+  ex:-intx,y
+
+
+TYPE CASTING:-  process of converting one data type to another data types
+>--implicit (or) widening type conversion:-
+      *smaller data type>--large data type
+     * carried out by compiler automatically
+     ( byte>-- int>-- long>-- float>-- double)
+>-- explicit (or) narrowing type convertion:-
+   *larger data type>-- smaller data type
+   * carried out by programmer using casting
+PROGRAMS:-
+
+>--implicit (or) widening type conversion:-
+
+ public class Main
+{
+public static void main(String[] args)
+{
+int my Int=2;
+double myDouble=myInt;
+System.out.println(myInt);
+System.out.println(myDouble);
+}
+}
+OUTPUT:2
+      2.0
+
+>-- explicit (or) narrowing type convertion:-
+
+public class Main
+{
+public static void main(String[] args)
+{
+double myDouble=9.78d;
+int myInt=(int) myDouble;
+System.out.println(myDouble);
+System.out.println(myInt);
+}
+}
+OUTPUT:9.78
+       9
+     
+
+   method is similiar to class write inside a class
+write a method once 
+
+
+
+
+public static void main(Strings[]args)
+
+public:-acces modifier
+static:- without creating object 
+void :- return type
+args:_ array name
+
+
+
+OPERATERS:- symbols that are used to perform certain mathematical and logical operations those are called as operators.
+TYPES OF OPERATORS:-
+           1.Arthimatic operator(+,-,*,/,%)
+           2. bitwise operator(&,|,^,~,<<,>>)
+           3. Assignment operator(=)
+           4. Relational operator(==,>,<,>=,<=,!=)
+           5. logical operator(&&,||,!)
+           6.ternary operator(?:)
+
+
+
+TYPE CASTING:- the process of converting one data type to another data types is know as type casting.
+
+>--implicit (or) widening type conversion:-
+      * convert smaller data type to large data type
+     * carried out by compiler automatically
+     ( byte>-- int>-- long>-- float>-- double)
+
+>-- explicit (or) narrowing type convertion:-
+   * convert larger data type to  smaller data type
+   * carried out by programmer using casting
+
+Widening Type Conversion
+– Implicit conversion by compiler automatically
+byte -> short, int, long, float, double
+short -> int, long, float, double
+char -> int, long, float, double
+int -> long, float, double
+long -> float, double
+float -> double
+
+Narrowing Type Conversion
+– Programmer should describe the conversion explicitly
+byte -> char
+short -> byte, char
+char -> byte, short
+int -> byte, short, char
+long -> byte, short, char, int
+float -> byte, short, char, int, long
+double -> byte, short, char, int, long, float
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
